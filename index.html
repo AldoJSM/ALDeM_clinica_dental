@@ -88,7 +88,7 @@ http://www.tooplate.com/view/2098-health
                          <li><a href="#mision" class="smoothScroll">Sobre Nosostros</a></li>
                          <li><a href="#team" class="smoothScroll">Nuestro equipo</a></li>
                          <li><a href="#google-map" class="smoothScroll">Donde nos ubicamos</a></li>
-                         <li class="appointment-btn"><a href="#contacto">Agenda tu cita</a></li>
+                         <li class="appointment-btn"><a href="#appointment">Agenda tu cita</a></li>
                     </ul>
                </div>
 
@@ -333,11 +333,11 @@ http://www.tooplate.com/view/2098-health
      </section>
 
 
-    
+
 
 
      <!-- Agendar cita -->
-     <section id="contacto" data-stellar-background-ratio="3">
+     <section id="appointment" data-stellar-background-ratio="3">
           <div class="container">
                <div class="row">
 
@@ -379,8 +379,7 @@ http://www.tooplate.com/view/2098-health
                                         <label for="Message">Motivo de la cita</label>
                                         <textarea class="form-control" rows="5" id="message" name="message"
                                              placeholder="Ejemplo: valoracion dental para colocacion de brackets..."></textarea>
-                                        <button type="button" class="form-control" id=""
-                                             name="submit">Agendar</button>
+                                        <button type="submit" class="form-control" id="cf-submit" name="submit">Agendar cita</button>
                                    </div>
                               </div>
                          </form>
@@ -474,6 +473,11 @@ http://www.tooplate.com/view/2098-health
      <script src="js/smoothscroll.js"></script>
      <script src="js/owl.carousel.min.js"></script>
      <script src="js/custom.js"></script>
+     <script>
+document.getElementById('cf-submit').addEventListener('click', function(event) {
+    event.preventDefault();
+});
+</script>
 
 </body>
 
