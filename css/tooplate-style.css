@@ -473,9 +473,21 @@ http://www.tooplate.com/view/2098-health
       ABOUT              
   -----------------------------------------*/
 
-  #about {
-    background: url('../images/about-bg.jpg') no-repeat top center;
-    background-size: cover;
+  #mision {
+    background: url('../images/mision.png') no-repeat top center;
+    background-size: auto;
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+  #valores {
+    background: url('../images/vision.png') no-repeat top center;
+    background-size: auto;
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+  #vision {
+    background: url('../images/valores.png') no-repeat top center;
+    background-size: auto;
     padding-top: 150px;
     padding-bottom: 150px;
   }
